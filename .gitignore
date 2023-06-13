@@ -5,6 +5,10 @@
 ### Account file ###
 accounts/
 
+### static file ###
+fonts/
+icons/
+
 ### IntelliJ Idea ###
 .idea/
 
