@@ -1,0 +1,20 @@
+[project]
+name = "wifi-bot"
+version = "0.1.0"
+description = "wifi-bot"
+authors = [
+    {name = "WiFiFi", email = "1418404007@qq.com"},
+]
+license = {text = "AGPL-3.0-or-later"}
+readme = "README.md"
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" },
+    { name = "Console", module_name = "nonebot.adapters.console" }
+]
+#plugins = ["nonebot_plugin_gocqhttp"]
+plugins = []
+plugin_dirs = ["wifi_bot/plugins"]
+builtin_plugins = ["echo"]
